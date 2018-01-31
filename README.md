@@ -202,8 +202,20 @@ colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+# Contact link settings
+contact_links: # more than 2 does not work on mobile
+  - link:
+    title: Github
+    url: https://github.com
+    icon: code # material icons
+    bgcolor: grey # use materilize colors
+    color_variant: darken-1 # leave empty, darken-, lighten- or accent- with a level, according to materialize
+  - link:
+    title: Medium
+    url: https://medium.com
+    icon: library_books
+    bgcolor: green
+    color_variant: darken-2
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: http://localhost:4000/ # The URL of your site
