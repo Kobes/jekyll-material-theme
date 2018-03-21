@@ -6,7 +6,7 @@
     <span class="card-title activator" style="text-align:right;"><a class="btn-floating waves-effect waves-light red pulse"><i class="large material-icons">arrow_drop_up</i></a></span>
     <div class="row" style="text-align:center">
       {% for link in site.contact_links %}
-        <a class="waves-effect waves-light btn {{link.bgcolor}} {{link.color_variant}}" target="_blank" href="{{link.url}}"><i class="material-icons right">{{link.icon}}</i>{{link.title}}</a>
+        <a class="waves-effect waves-light btn {{link.bgcolor}} {{link.color_variant}}" target="{{link.target}}" href="{{link.url}}"><i class="material-icons right">{{link.icon}}</i>{{link.title}}</a>
       {% endfor %}
     </div>
   </div>
